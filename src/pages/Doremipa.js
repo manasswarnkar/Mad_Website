@@ -1,10 +1,10 @@
 import React from 'react'
-import chester from "../assets/subcategory/Razzmatazz-100.jpg"
-import ladygaga from "../assets/subcategory/Vocalicious-100.jpg"
-import pentatonix from "../assets/subcategory/Balladeers-100.jpg"
-import tim from "../assets/subcategory/Prelude-100.jpg"
-import vrind from "../assets/subcategory/Vrind-100.jpg"
-import rahman from "../assets/subcategory/Engi Idol-100.jpg"
+import Razzmatazz from "../assets/subcategory/Razzmatazz.png"
+import Vocalicious from "../assets/subcategory/Vocalicious.png"
+import Balladeers from "../assets/subcategory/Balladeers.png"
+import Prelude from "../assets/subcategory/Prelude.png"
+import Vrind from "../assets/subcategory/Vrind.png"
+import EngiIdol from "../assets/subcategory/Engi-Idol.png"
 import SubCategoryCard from '../components/SubCategoryCard'
 import hero from "../assets/Doremipa-hero.png"
 
@@ -66,12 +66,12 @@ const Doremipa = () => {
       <h1 className="subCat">Sub-Categories</h1>
 
       <div className="subcategory">
-        <SubCategoryCard alt="Vocalicious" src={ladygaga} link={`https://docs.google.com/forms/d/1bzLcU9_DJYQ645rsjy1OSYBN-T7ToTJAGjlvlM-JVos/viewform`} />
-        <SubCategoryCard alt="Razzmatazz" src={chester} link={`https://docs.google.com/forms/d/11lAlYqlm23_r2iRaEe4xrigzeCczQ7sz5AOm3MM7L7I/viewform`} />
-        <SubCategoryCard alt="Balladeers" src={pentatonix} link={`https://docs.google.com/forms/d/e/1FAIpQLScgh4g4dKUT_9mAg5eOGCqipSebarVpz2yHOoo1xq4WOkKpow/viewform`} />
-        <SubCategoryCard alt="Prelude" src={tim} link={`https://docs.google.com/forms/d/1tsTUzdvBI5JorIBM2dc7VjQ0tTozqo8I0k5pctps7Ms/viewform`} />
-        <SubCategoryCard alt="Vrind" src={vrind} link={`https://docs.google.com/forms/d/1FKvta2mzv_uG1B-qAO6XNwemvaVirSWxtHLm4CR-dQE/viewform`} />
-        <SubCategoryCard alt="Engi Idol" src={rahman} link={`https://docs.google.com/forms/d/e/1FAIpQLScM3WZGY9Mn0R2O32sBrcYUDTpoYxCrQlGmYZbykegkg48ttw/viewform`} />
+        <SubCategoryCard alt="Vocalicious" src={Vocalicious} link={`https://forms.gle/koNkgiu6eMof3ZJW7`} />
+        <SubCategoryCard alt="Razzmatazz" src={Razzmatazz} link={`https://forms.gle/dM6rv8p93Dxf34Qu7`} />
+        <SubCategoryCard alt="Balladeers" src={Balladeers} link={`https://forms.gle/P6BL5or1WjiCGByq9`} />
+        <SubCategoryCard alt="Prelude" src={Prelude} link={`https://forms.gle/J5Pn8VxCTavvCQY39`} />
+        <SubCategoryCard alt="Vrind" src={Vrind} link={`https://forms.gle/mpMhjYa8kgFzLN4q7`} />
+        <SubCategoryCard alt="Engi Idol" src={EngiIdol} link={`https://forms.gle/RBS7DQzYjhWZFr2j8`} />
       </div>
 
 
