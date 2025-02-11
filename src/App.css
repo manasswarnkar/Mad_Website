@@ -1698,6 +1698,11 @@
   margin: 2.7vw;
 }
 
+.council-column-wrapper{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
 .council-column .council-pos{
   position: relative;
   bottom: 3.75vw;
@@ -1731,6 +1736,8 @@
 
 
 /* COUNCIL CARD */
+
+
 .council-card{
   display: flex;
   flex-direction: column;
@@ -1796,12 +1803,20 @@
   width: 21.875vw;
   height: 25.6875vw;
   border-radius: 1.75vw 1.75vw 0vw 0vw;
+  object-fit: cover;
 }
 
 @media screen and (max-width: 800px) {
   .council-card .council-name{
     font-size: 2.5vw;
   }
+}
+
+
+.vc-div{
+  display: flex;
+  flex-direction: column;
+
 }
 
 /* COUNCIL CARD END */
