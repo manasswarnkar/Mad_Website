@@ -88,6 +88,9 @@
   font-size: 70%;
   color: #ffffff;
 }
+.navbar-link:hover{
+  color: yellow;
+}
 
 
 
@@ -723,111 +726,82 @@
 /* HOMEPAGE_END */
 
 /* FOOTER START */
-
-.footerMobile{
+.footerMobile {
   display: none;
 }
 
 .footer {
+  height: 60px;
   display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  height: 6.5vw;
-  overflow: hidden;
-  padding: 6.25vw 2.5vw; 
-}
-
-
-.madLogo-footer {
-  object-fit: contain;
-  height: 6.25vw;
-  position: relative;
-  left: 7.8125vw;
-  bottom: 1.25vw;
-  display: flex;
-  flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  padding: 80px 80px;
 }
 
-/* @media screen and (max-width:1100px) {
-  .madLogo-footer{
-    width: 30%;
-  }
-  .footer-sec1{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    width: 70%;
-  }
-} */
+/* ---------- SECTION 1 (LOGO + EMAIL) ---------- */
 
+.footer-sec1 {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
 
-/* @media screen and (min-width:1100px) and (max-width:1600px) {
-  .madLogo-footer{
-    width: 25%;
-  }
-  .footer-sec1{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    width: 50%;
-  }
-
-} */
-
+.madLogo-footer {
+  height: 90px;
+  object-fit: contain;
+}
 
 .footer-sec1 div {
   display: flex;
-  justify-content: center;
   align-items: center;
-  
+  gap: 10px;
 }
 
 .email-footer {
-  object-fit: contain;
-  width: 6%;
+  width: 18px;
 }
+
+/* ---------- SECTION 2 (LINKS) ---------- */
 
 .footer-sec2 {
   display: flex;
-  text-decoration: none;
   flex-direction: column;
-  justify-content: space-evenly;
-  height: 16vw;
+  gap: 14px;
 }
 
 .linki {
   text-decoration: none;
-  color: black;
   color: #1a1a1a;
   font-family: "Manrope-Regular", Helvetica;
-  font-size: 0.875vw;
-  font-style: normal;
+  font-size: 14px;
   font-weight: 400;
-  line-height: normal;
+}
+.linki:hover{
+  color: rgb(150, 69, 69);
 }
 
 .link1 {
   font-weight: 700;
+  margin-bottom: 6px;
+}
+.link1:hover{
+   color: #1a1a1a;
 }
 
+/* ---------- SECTION 3 (CONTACT) ---------- */
+
 .footer-sec3 {
-  width: 25%;
+  width: 280px;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
-  height: 16vw;
+  gap: 14px;
 }
 
 .footer-sec3 p {
   color: #1a1a1a;
   font-family: "Manrope-Regular", Helvetica;
-  font-size: 0.875vw;
-  font-style: normal;
-  line-height: normal;
+  font-size: 14px;
+  line-height: 1.6;
 }
 
 .footer-p1 {
@@ -835,34 +809,32 @@
 }
 
 .span1-footer {
-  color: #1a1a1a;
-  font-family: "Manrope-Regular", Helvetica;
-  font-size: 0.875vw;
-  font-style: normal;
-  line-height: normal;
   font-weight: 700;
 }
 
 .span2-footer {
-  color: #1a1a1a;
-  font-family: "Manrope-Regular", Helvetica;
-  font-size: 0.875vw;
-  font-style: normal;
-  line-height: normal;
   font-weight: 400;
 }
 
+/* ---------- ICONS ---------- */
+
 .icons-footer {
   display: flex;
-  justify-content: space-between;
-  width: 70%;
-  margin-top: 1.25vw;
+  gap: 18px;
+  margin-top: 12px;
 }
 
 .icon-footer {
+  width: 34px;
+  height: 34px;
   object-fit: contain;
-  width: 50%;
+  cursor: pointer;
+  padding: 10px 0;
 }
+.icon-footer:hover {
+  transform: scale(1.1);
+}
+
 
 /* @media screen and (max-width: 900px) {
   .footer {
@@ -1107,6 +1079,10 @@
   display: flex;
   justify-content: space-between;
   width: 40%;
+}
+
+.artist-link:hover {
+  transform: scale(1.1);
 }
 
 .artist-link {
@@ -1411,58 +1387,56 @@
   flex-shrink: 0;
 }
 
-.accoladesCard{
+.accoladesCard {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
-  overflow: hidden;
 }
 
-.accHover{
-  /* all: unset; */
-  display:flex;
-  width: 16.25vw;
-  height: 23.125vw;
-  font-family: "Manrope-Regular", Helvetica;
-  font-size: 1.25vw;
-  background: white;
-  padding-top: 1.25vw;
-  padding-left: 0.625vw;
-  padding-right: 0.625vw;
-  z-index:99;
-  border-radius: 1.8125vw;
-  justify-content: center;
-  text-align: center;
-  overflow: hidden;
-  white-space: pre-line;  
-  vertical-align: bottom;
-  opacity: 1;
-  transition: all ease-in-out 0.4s;
+.accHover {
   position: absolute;
+  top: 0;
+  left: 0;
+  width: 17.5vw;
+  height: 24.375vw;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 1.8125vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5vw;
+  box-sizing: border-box;
+  font-family: "Manrope-Regular", Helvetica;
+  font-size: 1.05vw;
+  font-weight: 400;
+  line-height: 1.6;
+  text-align: center;
+  color: #1a1a1a;
 
+  opacity: 0;
+  transition: opacity 0.35s ease;
+}
+.accHover p {
+  margin: 0;
 }
 
-.accHover p{
-  width: 16.875vw; 
-}
 
 .accHover{
   opacity: 0;
 }
 
-.acc-img{
-  display: block;
+.acc-img {
   width: 17.5vw;
   height: 24.375vw;
   border-radius: 1.8125vw;
-  overflow: hidden;
+  object-fit: cover;
 }
 
-.accoladesCard:hover .accHover{
-  z-index: 1;
+.accoladesCard:hover .accHover {
   opacity: 1;
-} 
+}
+
 
 .acc-name{
   color: #FFF;
@@ -1484,6 +1458,17 @@
   line-height: normal;
   text-align: center;
 }
+.accHover {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.accHover p {
+  margin: 0.3vw 0;
+}
+
 
 @media screen and (max-width: 1100px) {
   .acc-heading{
@@ -1534,30 +1519,39 @@
   overflow: hidden;
 }
 
-.accHover2{
-  white-space: pre-line;  
-  vertical-align: bottom;
-  background: white;
-  z-index:99;
-  overflow: hidden;
-  width: 42.5vw;
-  height: 23.125vw;
-  padding: 1.25vw 0.625vw 0vw 0.625vw;
-  border-radius: 1.8125vw;
-  text-align: center;
-  font-size: 1.25vw;
-  font-family: "Manrope-Regular", Helvetica;
-  display:flex;
-  justify-content: center;
-  opacity: 0;
-  transition: all ease-in-out 0.4s;
+.accHover2 {
   position: absolute;
+  width: 43.5vw;
+  height: 24.125vw;
+  background: white;
+  border-radius: 1.8125vw;
+  padding: 1.8vw 2.5vw;
+  box-sizing: border-box;
 
+  display: flex;
+  align-items: center;        /* vertical centering */
+  justify-content: center;    /* horizontal centering */
+
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
 }
 
-.accHover2 p{
-  width: 16.875vw; 
+.accHover2 ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  display: flex;
+  flex-direction: column;
+  gap: 0.6vw;
+
+  text-align: center;
+  font-family: "Manrope-Regular", Helvetica;
+  font-size: 1.25vw;
   color: #000;
+}
+.accHover2 li {
+  line-height: 1.5;
 }
 
 

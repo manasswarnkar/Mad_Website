@@ -67,11 +67,11 @@ const Doremipa = () => {
 
       <div className="subcategory">
         <SubCategoryCard alt="Vocalicious" src={Vocalicious} link={`https://forms.gle/koNkgiu6eMof3ZJW7`} />
-        <SubCategoryCard alt="Razzmatazz" src={Razzmatazz} link={`https://forms.gle/dM6rv8p93Dxf34Qu7`} />
-        <SubCategoryCard alt="Balladeers" src={Balladeers} link={`https://forms.gle/P6BL5or1WjiCGByq9`} />
-        <SubCategoryCard alt="Prelude" src={Prelude} link={`https://forms.gle/J5Pn8VxCTavvCQY39`} />
-        <SubCategoryCard alt="Vrind" src={Vrind} link={`https://forms.gle/mpMhjYa8kgFzLN4q7`} />
-        <SubCategoryCard alt="Engi Idol" src={EngiIdol} link={`https://forms.gle/RBS7DQzYjhWZFr2j8`} />
+        <SubCategoryCard alt="Razzmatazz" src={Razzmatazz} link={`https://forms.gle/4hvoqLFWQErPsKpA9`} />
+        <SubCategoryCard alt="Balladeers" src={Balladeers} link={`https://forms.gle/gWGPehwgPeLjqRFc6`} />
+        <SubCategoryCard alt="Prelude" src={Prelude} link={`https://forms.gle/thVDbpyKJYiRqPaDA`} />
+        <SubCategoryCard alt="Vrind" src={Vrind} link={`https://forms.gle/eqUnLq4JHJYceTbg8`} />
+        <SubCategoryCard alt="Engi Idol" src={EngiIdol} link={`https://forms.gle/NfaS3U6viEuDfq5S9`} />
       </div>
 
 
