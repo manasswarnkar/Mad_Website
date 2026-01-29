@@ -145,37 +145,49 @@ export const westernSolos = [
     image: apoorv,
     name: 'Apoorv',
     tag: 'B. Tech. (CE)',
-    wins: "1st - Acharya N. Dev College \n1st - Motilal Nehru College \n3rd - Sri Aurobindo College \n3rd - Dyal Singh College \nSpecial Mention JMC \nSpecial Mention MAIT"
+    wins: [
+  "1st - Sri Aurobindo College",
+  "1st - Ramjas College",
+  "1st - PGDAV College",
+  "1st - Gargi College",
+  "1st - CVS",
+  "1st - JMC",
+  "2nd - Swami Shraddhanand",
+  "3rd - Dyal Singh College",
+  "3rd - SSCBS",
+  "3rd - IIT Delhi"
+]
+
   },
   {
     image: anasuya,
     name: 'Anasuya Mithra',
     tag: 'B. Tech. (IT)',
-    wins: '1st - Amity University, Noida\n1st - Kamla Nehru College\n1st - Lady Irwin College\n1st - IIT Bombay\n1st - NSUT\n2nd - SRCC\n2nd - MAIT\n2nd - Maitreyi College\n2nd - Deshbandhu College'
+    wins: ["1st - Amity University, Noida", "1st - Kamla Nehru College", "1st - Lady Irwin College", "1st - IIT Bombay", "1st - NSUT", "2nd - SRCC", "2nd - MAIT", "2nd - Maitreyi College", "2nd - Deshbandhu College"]
   },
   {
     image: jahnavi,
     name: 'Jahnavi Rajaram',
     tag: 'B. Des.',
-    wins: '1st - Sri Aurobindo College\n1st - Ramjas College\n1st - PGDAV College\n1st - Gargi College\n1st - CVS\n1st - JMC\n2nd - Swami Shraddhanand\n3rd - Dyal Singh College\n3rd - SSCBS\n3rd - IIT Delhi'
+    wins: ["1st - Sri Aurobindo College", "1st - Ramjas College", "1st - PGDAV College", "1st - Gargi College", "1st - CVS", "1st - JMC", "2nd - Swami Shraddhanand", "3rd - Dyal Singh College", "3rd - SSCBS", "3rd - IIT Delhi"]
   },
   {
     image: anubhav,
     name: 'Anubhav Dhyani',
     tag: 'BTech (Mech Engg.)',
-    wins: '3rd - Deshbandhu College'
+    wins: ["3rd - Deshbandhu College"]
   },
   {
     image: akarshita,
     name: 'Akarshita',
     tag: 'B. Des.',
-    wins: '2nd - Motilal Nehru College'
+    wins: ["2nd - Motilal Nehru College"]
   },
   {
     image: saksham,
     name: 'Saksham Sehgal',
     tag: 'B. Tech. (EP)',
-    wins: '3rd - Lady Irwin College\n1st - Kalamkaar, DTU'
+    wins: ["3rd - Lady Irwin College", "1st - Kalamkaar, DTU"]
   },
 ]
 
@@ -184,19 +196,19 @@ export const indianSolos = [
     image: sarthak,
     name: 'Sarthak',
     tag: 'B. Tech. (EE)',
-    wins: '1st - Shivaji College\n1st - UCMS\n1st - PGDAV (E)\n1st - ADGITM\n1st - Amity University, Noida\n1st - MAIT\n1st - Bharati College\n1st - IGDTUW\n2nd - Mata Sundari College\n2nd - BVIMR\n3rd - Dyal Singh College\nSpecial Mention AND College\nSpecial Mention IIT Delhi'
+    wins: ["1st - Shivaji College", "1st - UCMS", "1st - PGDAV (E)", "1st - ADGITM", "1st - Amity University, Noida","1st - MAIT","1st - Bharati College", "1st - IGDTUW","2nd - Mata Sundari College", "2nd - BVIMR","3rd - Dyal Singh College", "Special Mention AND College", "Special Mention IIT Delhi"]
   },
   {
     image: sabya,
     name: 'Sabyasachi',
     tag: 'BTech (PIE)',
-    wins: 'Special Mention PGDAV (E)'
+    wins: ["Special Mention PGDAV (E)"]
   },
   {
     image: jangid,
     name: 'Abhishek Jangid',
     tag: 'B. Tech. (ECE)',
-    wins: '2nd - SBSC'
+    wins: ["2nd - SBSC"]
   },
 ]
 
@@ -205,7 +217,7 @@ export const instrumental = [
     image: jayant,
     name: 'Jayant Saksham',
     tag: 'B. Tech. (MCE)',
-    wins: '1st - Sri Aurobindo College\n1st - IIIT Delhi\n2nd - Deshbandhu College\nSpecial Mention Ramjas'
+    wins: ["1st - Sri Aurobindo College", "1st - IIIT Delhi", "2nd - Deshbandhu College","Special Mention Ramjas"]
   },
 ]
 
@@ -214,13 +226,13 @@ export const band = [
     image: fourforty,
     name: '440HZ',
     tag: 'Senior Band',
-    wins: 'MDI Gurgaon - 2nd Position\nChrist University - 2nd Position\nLSR, DU - 3rd Position'
+    wins: ["MDI Gurgaon - 2nd Position","Christ University - 2nd Position","LSR, DU - 3rd Position"]
   },
   {
     image: dhoomketu,
     name: 'Dhoomketu',
     tag: 'Junior Band',
-    wins: 'NIFT, Delhi - 1st Position\nBharti Vidyapeeth, IPU - 2nd Position\nBattle of Bands, Pacific Mall - 2nd Position'
+    wins: ["NIFT, Delhi - 1st Position", "Bharti Vidyapeeth, IPU - 2nd Position", "Battle of Bands, Pacific Mall - 2nd Position"]
   },
 ]
 
@@ -229,12 +241,12 @@ export const group = [
     image: acapella,
     name: 'Acapella',
     tag: '',
-    wins: 'Special Mention - Swami Shraddhanand College, DU'
+    wins: ["Special Mention - Swami Shraddhanand College, DU"]
   },
   {
     image: choir,
     name: 'Indian Choir',
     tag: '',
-    wins: ''
+    wins: [""]
   },
 ]
