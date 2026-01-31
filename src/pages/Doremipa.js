@@ -8,15 +8,47 @@ import EngiIdol from "../assets/subcategory/Engi-Idol.png"
 import SubCategoryCard from '../components/SubCategoryCard'
 import hero from "../assets/Doremipa-hero.png"
 
-import sponsor1 from "../assets/sponsor-logo1.png";
-import sponsor2 from "../assets/sponsor-logo2.png";
-import sponsor3 from "../assets/sponsor-logo3.png";
-import sponsor4 from "../assets/sponsor-logo4.png";
-import sponsor5 from "../assets/sponsor-logo5.png";
+import sponsor1 from "../assets/sponsor-logo4.png";
+import sponsor2 from "../assets/sponsor-logo5.png";
+import sponsor3 from "../assets/sponsor3.png";
+import sponsor4 from "../assets/sponsor2.png";
+import sponsor5 from "../assets/sponsor1.png";
 
 const Doremipa = () => {
   return (
     <div className='Doremipa'>
+      <style>{`
+        .current-sponsors {
+           display: flex;
+           justify-content: space-evenly;
+           align-items: center;
+           flex-wrap: wrap;
+           gap: 10px; /* Space between the circles */
+           margin-top: 30px;
+        }
+
+        .current-sponsor {
+           /* Make them Perfect Circles */
+           width: 180px;
+           height: 180px;
+           border-radius: 50%;
+           
+           /* Styling the content inside */
+           background-color: white; /* Clean background for logos */
+           object-fit: contain;     /* Ensures rectangular logos don't stretch */
+           padding: 2px;           /* Breathing room for the logo */
+           box-shadow: 0 4px 10px rgba(0,0,0,0.2); /* Optional: subtle depth */
+           
+           /* Smooth Animation (0.1s as requested) */
+           transition: transform 0.15s ease-in-out;
+           cursor: pointer;
+        }
+
+        .current-sponsor:hover {
+           transform: scale(1.1); /* Scale up slightly */
+        }
+      `}</style>
+
       <div className="hero-doremipa">
         <img src={hero} alt="Doremipa Hero" />
         <div className="about-doremipa-sec">
@@ -60,9 +92,6 @@ const Doremipa = () => {
 
       </div>
 
-
-
-
       <h1 className="subCat">Sub-Categories</h1>
 
       <div className="subcategory">
@@ -73,7 +102,6 @@ const Doremipa = () => {
         <SubCategoryCard alt="Vrind" src={Vrind} link={`https://forms.gle/eqUnLq4JHJYceTbg8`} />
         <SubCategoryCard alt="Engi Idol" src={EngiIdol} link={`https://forms.gle/NfaS3U6viEuDfq5S9`} />
       </div>
-
 
       <div className="sponsors">
         <p className="content-sponsors">Past Sponsors</p>

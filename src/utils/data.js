@@ -8,13 +8,25 @@ import jangidartist from '../assets/artists/jangid.png';
 import sehgal from '../assets/artists/sehgal.png';
 import manas from '../assets/artists/manas.png';
 import shikhar from '../assets/artists/shikhar.png';
+import amj from "../assets/artists/amj.jpeg";
 
-
+import rythm from "../assets/accolades/rythm.jpeg"
+import darya2 from "../assets/accolades/darya2.jpeg"
+import anwesha from "../assets/accolades/anwesha.jpeg"
+import duality from "../assets/accolades/duality.jpeg"
+import aanuja from "../assets/accolades/aanuja.jpeg"
+import choir from "../assets/accolades/choir.jpeg"
+import darya from "../assets/accolades/darya.jpeg"
+import sakshamb from "../assets/accolades/saskshamb.jpeg"
+import amitoj from "../assets/accolades/amitoj.jpeg"
+import harshit from "../assets/accolades/harshit.jpeg"
+import vanshaj from "../assets/accolades/vanshaj.jpeg"
+import duet from '../assets/accolades/duet.jpeg'
+import lakshay from "../assets/accolades/lakshay.jpeg"
 import sabya from "../assets/accolades/sabya.png";
 import fourforty from "../assets/accolades/fourforty.png";
-import dhoomketu from "../assets/accolades/dhoomketu.png";
-import acapella from '../assets/accolades/acapella.png';
-import choir from '../assets/accolades/choir.png';
+import dhoomketu from "../assets/accolades/dhoomketu.jpeg";
+import acapella from '../assets/accolades/acapella.jpeg';
 import apoorv from "../assets/accolades/apoorv.png";
 import anasuya from "../assets/accolades/anasuya.png";
 import jahnavi from "../assets/accolades/jahnavi.png";
@@ -36,6 +48,7 @@ export const artist = [
     yt: "https://www.youtube.com/channel/UCSXv4zmSl8iCkgVrxQ9P7hw",
     spotify: "https://open.spotify.com/artist/74lKy2401dGEdFaTudLL7q?si=YRf9O_8sT-C8RKzM2SV91w",
   },
+
   {
     name: 'Mayank Mittal',
     tag: 'Artist, Vocalist, Educator',
@@ -126,15 +139,15 @@ export const artist = [
     yt: "https://www.youtube.com/@taqdeermusic",
     spotify: "",
   },
-  {
-    name:"",
-    tag: '',
-    image: '',
-    desc: '',
-    spotifyEmbed: '',
-    ig: '',
-    yt: '',
-    spotify: '',
+      {
+    name: 'Aniruddha Majumdar',
+    tag: 'Artist, Producer',
+    image: amj,
+    desc :'Aniruddha Majumdar is a Singer-Songwriter, Multi-Instrumentalist and Producer based in Delhi, India. He started releasing original music in 2025, each track recorded in his bedroom and self produced. He tries to bring in different parts of his inspirations to light, blending genres like Pop Rock, Midwest Emo, Shoegaze, Progressive Rock and Modern Metal. He is also the bassist and one of the core members of the Indo-Fusion band Darya, and currently serves as the Western Head of Madhurima.',
+    spotifyEmbed: "https://open.spotify.com/embed/track/5P2hbWfUuauA88zB0RYHds?utm_source=generator",
+    ig: "https://www.instagram.com/invictus.arpeggi?igsh=eDN5YTlrMjEzNXhr",
+    yt: "https://www.youtube.com/channel/UCJiD8Z-X2DBBS2K3GaPeSLQ",
+    spotify: "https://open.spotify.com/artist/4a4ZMXOgWgfWBYIHJVerGw?si=S5iReRWeQCSOgWi77wgy_Q",
   }
 
 
@@ -152,87 +165,134 @@ export const westernSolos = [
   "1st - Gargi College",
   "1st - CVS",
   "1st - JMC",
+  "1st - Hansraj College",
   "2nd - Swami Shraddhanand",
-  "3rd - Dyal Singh College",
   "3rd - SSCBS",
   "3rd - IIT Delhi"
 ]
 
   },
   {
-    image: anasuya,
-    name: 'Anasuya Mithra',
-    tag: 'B. Tech. (IT)',
-    wins: ["1st - Amity University, Noida", "1st - Kamla Nehru College", "1st - Lady Irwin College", "1st - IIT Bombay", "1st - NSUT", "2nd - SRCC", "2nd - MAIT", "2nd - Maitreyi College", "2nd - Deshbandhu College"]
-  },
-  {
-    image: jahnavi,
-    name: 'Jahnavi Rajaram',
-    tag: 'B. Des.',
-    wins: ["1st - Sri Aurobindo College", "1st - Ramjas College", "1st - PGDAV College", "1st - Gargi College", "1st - CVS", "1st - JMC", "2nd - Swami Shraddhanand", "3rd - Dyal Singh College", "3rd - SSCBS", "3rd - IIT Delhi"]
-  },
-  {
-    image: anubhav,
-    name: 'Anubhav Dhyani',
-    tag: 'BTech (Mech Engg.)',
-    wins: ["3rd - Deshbandhu College"]
-  },
-  {
-    image: akarshita,
-    name: 'Akarshita',
-    tag: 'B. Des.',
-    wins: ["2nd - Motilal Nehru College"]
-  },
-  {
-    image: saksham,
-    name: 'Saksham Sehgal',
-    tag: 'B. Tech. (EP)',
-    wins: ["3rd - Lady Irwin College", "1st - Kalamkaar, DTU"]
-  },
+    image: aanuja,
+    name: 'Aanuja Singh',
+    tag: 'B. Tech. (ME)',
+    wins: ["1st - IIT Bombay", "Golden Ticket - IIT Bombay"]},
+
+
 ]
 
 export const indianSolos = [
   {
-    image: sarthak,
-    name: 'Sarthak',
+    image: vanshaj  ,
+    name: 'Vanshaj',
     tag: 'B. Tech. (EE)',
-    wins: ["1st - Shivaji College", "1st - UCMS", "1st - PGDAV (E)", "1st - ADGITM", "1st - Amity University, Noida","1st - MAIT","1st - Bharati College", "1st - IGDTUW","2nd - Mata Sundari College", "2nd - BVIMR","3rd - Dyal Singh College", "Special Mention AND College", "Special Mention IIT Delhi"]
+    wins: ["2nd - Dyal Singh College"]
   },
   {
-    image: sabya,
-    name: 'Sabyasachi',
-    tag: 'BTech (PIE)',
-    wins: ["Special Mention PGDAV (E)"]
+    image: lakshay,
+    name: 'Lakshay Juyal',
+    tag: 'BTech (BT)',
+    wins: ["3rd - IIT Bombay","Golden Ticket - IIT Bombay"]
   },
   {
-    image: jangid,
-    name: 'Abhishek Jangid',
+    image: rythm,
+    name: 'Rythm Sachdeva',
     tag: 'B. Tech. (ECE)',
-    wins: ["2nd - SBSC"]
+    wins: ["1st - IIT Bombay","Golden Ticket - IIT Bombay"]
+  },
+    {
+    image: harshit,
+    name: 'Harshit Singh',
+    tag: 'B. Tech. (ECE)',
+    wins: ["2nd - Sri Guru Gobind Singh College"]
   },
 ]
 
 export const instrumental = [
   {
-    image: jayant,
-    name: 'Jayant Saksham',
-    tag: 'B. Tech. (MCE)',
-    wins: ["1st - Sri Aurobindo College", "1st - IIIT Delhi", "2nd - Deshbandhu College","Special Mention Ramjas"]
+    image: amitoj,
+    name: 'Amitoj Singh',
+    tag: 'B. Tech. (ECE)',
+    wins: ["1st - Bennet University",
+       "1st - SRM University",
+        "1st - ARSD College",
+        "1st - IIIT Delhi",
+      "1st - Sri Guru Gobind Singh College",
+      "2nd - Acharya Narendra Dev College",
+    "2nd - Sri Aurobindo College"]
+  },
+    {
+    image: anwesha,
+    name: 'Awnesha Mandal',
+    tag: 'B. Tech. (ECE)',
+    wins: ["1st - IIT Bombay",
+       "1st - Lady Sri Ram College",
+      "2nd - Deshbandhu College",
+    "2nd - Sri Aurobindo College",
+  "2nd - Sri Guru Gobind Singh College",]
   },
 ]
 
-export const band = [
-  {
-    image: fourforty,
-    name: '440HZ',
-    tag: 'Senior Band',
-    wins: ["MDI Gurgaon - 2nd Position","Christ University - 2nd Position","LSR, DU - 3rd Position"]
+
+export const beatbox = [
+    {
+    image: sakshamb,
+    name: 'Saksham Bisht',
+    tag: 'Btech',
+    wins: ["2nd - IIT Delhi"]
   },
+]
+
+export const Instrumental_Duet = [
+    {
+    image: amitoj,
+    name: 'Amitoj Singh',
+    tag: 'Btech (ECE)',
+    wins: ["1st - NSUT"]
+  },
+]
+
+export const Western_Duet = [
+    {
+    image: duet ,
+    name: 'Vasavi Taneja & Aniruddha Majumdar',
+    tag: 'Btech (SE)',
+    wins: ["1st - Lady Hardinge Medical College"]
+  },
+]
+export const band = [
   {
     image: dhoomketu,
     name: 'Dhoomketu',
+    tag: 'Senior Band',
+    wins: ["1st - IIT Bombay","1st - Maulana Azad Medical College",
+      "1st - Dr. Baba Saheb Ambedkar College",
+    "1st - Masters Union School of Business",
+  "3rd - Bennet University"]
+  },
+  {
+    image: darya2,
+    name: 'Darya',
     tag: 'Junior Band',
-    wins: ["NIFT, Delhi - 1st Position", "Bharti Vidyapeeth, IPU - 2nd Position", "Battle of Bands, Pacific Mall - 2nd Position"]
+    wins: ["1st - MDI Gurgaon",
+            "1st - NDIM College",
+            "1st - Motilal Nehru College",
+            "1st - Aryabhatta College",
+            "2nd - Sri Guru Gobind Singh College",
+            "2nd - MLNC College",
+            "2nd - Maharaja Surajmal Institute",
+            "3rd - IIT Bombay",
+            "3rd - Masters Union School of Business"
+    ]
+  },
+    {
+    image: duality,
+    name: 'Duality',
+    tag: 'Junior Band',
+    wins: [
+            "2nd - International Management Institute",
+            "2nd - St. Stephens College",
+    ]
   },
 ]
 
@@ -241,7 +301,7 @@ export const group = [
     image: acapella,
     name: 'Acapella',
     tag: '',
-    wins: ["Special Mention - Swami Shraddhanand College, DU"]
+    wins: [""]
   },
   {
     image: choir,
