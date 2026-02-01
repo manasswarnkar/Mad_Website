@@ -1,8 +1,8 @@
 import React from "react";
 import hero from "../assets/440-home.png";
-import sponsor1 from "../assets/sponsor-logo1.png";
-import sponsor2 from "../assets/sponsor-logo2.png";
-import sponsor3 from "../assets/sponsor-logo3.png";
+import sponsor1 from "../assets/sponsor1.png";
+import sponsor2 from "../assets/sponsor2.png";
+import sponsor3 from "../assets/sponsor3.png";
 import sponsor4 from "../assets/sponsor-logo4.png";
 import sponsor5 from "../assets/sponsor-logo5.png";
 // import IGcomponent from "../components/IGcomponent";
@@ -23,9 +23,9 @@ const Home = () => {
       <div className="sponsors">
         <p className="content-sponsors">Sponsors</p>
         <div className="current-sponsors">
+          <img src={sponsor1} alt="sponsor1" className="current-sponsor" />
+          <img src={sponsor2} alt="sponsor2" className="current-sponsor" />
           <img src={sponsor3} alt="sponsor3" className="current-sponsor" />
-          <img src={sponsor4} alt="sponsor4" className="current-sponsor" />
-          <img src={sponsor5} alt="sponsor5" className="current-sponsor" />
         </div>
       </div>
       <div className="sponsors">

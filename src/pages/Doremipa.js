@@ -1,10 +1,10 @@
 import React from 'react'
-import Razzmatazz from "../assets/subcategory/Razzmatazz.png"
-import Vocalicious from "../assets/subcategory/Vocalicious.png"
-import Balladeers from "../assets/subcategory/Balladeers.png"
-import Prelude from "../assets/subcategory/Prelude.png"
-import Vrind from "../assets/subcategory/Vrind.png"
-import EngiIdol from "../assets/subcategory/Engi-Idol.png"
+import RazzmatazzNew from "../assets/subcategory/RazzmatazzNew.png"
+import VocaliciousNew from "../assets/subcategory/VocaliciousNew.png"
+import BalladeersNew from "../assets/subcategory/BalladeersNew.png"
+import PreludeNew from "../assets/subcategory/PreludeNew.png"
+import VrindNew from "../assets/subcategory/VrindNew.png"
+import EngiIdolNew from "../assets/subcategory/Engi-IdolNew.png"
 import SubCategoryCard from '../components/SubCategoryCard'
 import hero from "../assets/Doremipa-hero.png"
 
@@ -95,12 +95,12 @@ const Doremipa = () => {
       <h1 className="subCat">Sub-Categories</h1>
 
       <div className="subcategory">
-        <SubCategoryCard alt="Vocalicious" src={Vocalicious} link={`https://forms.gle/koNkgiu6eMof3ZJW7`} />
-        <SubCategoryCard alt="Razzmatazz" src={Razzmatazz} link={`https://forms.gle/4hvoqLFWQErPsKpA9`} />
-        <SubCategoryCard alt="Balladeers" src={Balladeers} link={`https://forms.gle/gWGPehwgPeLjqRFc6`} />
-        <SubCategoryCard alt="Prelude" src={Prelude} link={`https://forms.gle/thVDbpyKJYiRqPaDA`} />
-        <SubCategoryCard alt="Vrind" src={Vrind} link={`https://forms.gle/eqUnLq4JHJYceTbg8`} />
-        <SubCategoryCard alt="Engi Idol" src={EngiIdol} link={`https://forms.gle/NfaS3U6viEuDfq5S9`} />
+        <SubCategoryCard alt="Vocalicious" src={VocaliciousNew} link={`https://forms.gle/eF7Gf4wqU9sCeW4m8`} />
+        <SubCategoryCard alt="Razzmatazz" src={RazzmatazzNew} link={`https://forms.gle/4hvoqLFWQErPsKpA9`} />
+        <SubCategoryCard alt="Balladeers" src={BalladeersNew} link={`https://forms.gle/gWGPehwgPeLjqRFc6`} />
+        <SubCategoryCard alt="Prelude" src={PreludeNew} link={`https://forms.gle/thVDbpyKJYiRqPaDA`} />
+        <SubCategoryCard alt="Vrind" src={VrindNew} link={`https://forms.gle/eqUnLq4JHJYceTbg8`} />
+        <SubCategoryCard alt="Engi Idol" src={EngiIdolNew} link={`https://forms.gle/NfaS3U6viEuDfq5S9`} />
       </div>
 
       <div className="sponsors">

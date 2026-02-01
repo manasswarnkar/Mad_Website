@@ -35,7 +35,7 @@ const Artists = () => {
         <p className='heading-artistPage'>Our Alumni</p>
       </div>
 
-      {artist.slice(0, artist.length - 1).map((artist, index) => (
+      {artist.map((artist, index) => (
           <div className="artist-card" key={index}>
             <div className="artist-sec1">
               <img 

@@ -43,7 +43,7 @@ const About = () => {
       genSec1: { name: 'Tuyam', img: gs1_25 },
       genSec2: { name: 'Moumita', img: gs2_25 },
       treasurer: { name: 'Subhav', img: treas_25 },
-      jointSec1: { name: 'Samridh', img: js1_25 },
+      jointSec1: { name: 'Samriddh', img: js1_25 },
       jointSec2: { name: 'Hridika', img: js2_25 },
       jointSec3: { name: 'Siddhartha', img: js3_25 },
     },
